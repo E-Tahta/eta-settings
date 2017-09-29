@@ -1,0 +1,42 @@
+[Devices][/org/freedesktop/UDisks2/block_devices/sda1]
+Icon=drive-harddisk
+LastNameSeen=Windows RE tools
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=SYSTEM
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda4]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=Windows
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda5]
+Icon=drive-harddisk
+LastNameSeen=data
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda6]
+Icon=drive-harddisk
+LastNameSeen=Recovery image
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda7]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=106,5 GB Disk Sürücü
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb1]
+Icon=drive-removable-media-usb
+LastNameSeen=ESEN
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sr0]
+Icon=media-optical-data
+LastNameSeen=USB
+LastSeenMounted=false

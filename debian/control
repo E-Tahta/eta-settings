@@ -1,0 +1,23 @@
+Source: eta-settings
+Section: kde
+Priority: optional
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://pardus.org.tr
+
+Package: eta-settings
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}, pardus-x11-settings
+Depends: ${misc:Depends},
+ eta-icon-theme,
+ eta-plasma-themes,
+ libreoffice-style-sifr
+Description: default settings for the ETAP desktop
+ This package contains the default settings used by Pardus.
+
+Package: eta-live-settings
+Architecture: all
+Depends: ${misc:Depends}, eta-settings
+Description: configuration for the Paruds live cd
+ This package contains live cd customizations used by Pardus.

@@ -1,0 +1,16 @@
+[$Version]
+update_info=kmail.upd:3.3-move-identities-to-own-file,kmail.upd:3.3-aegypten-emailidentities-split-sign-encr-keys
+
+[General]
+Default Identity=1404902323
+
+[Identity #0]
+Default Domain=pk5
+Dictionary=Türkçe
+Disable Fcc=false
+Identity=Ogretmen
+Image Location=
+Inline Signature=
+Name=Ogretmen
+Signature Enabled=false
+uoid=1404902323

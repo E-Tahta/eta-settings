@@ -1,0 +1,12 @@
+[Layout]
+DisplayNames=,trf,,
+LayoutList=tr,tr(f),ara,us
+LayoutLoopCount=-1
+Model=pc101
+ResetOldOptions=false
+ShowFlag=false
+ShowLabel=true
+ShowLayoutIndicator=false
+ShowSingle=false
+SwitchMode=Global
+Use=true

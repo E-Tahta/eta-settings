@@ -1,0 +1,10 @@
+[GENERAL]
+delay=0
+filename[$e]=file://$HOME/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC1.png
+includeDecorations=true
+includePointer=false
+mode=0
+
+[MainWindow]
+Height 1080=499
+Width 1920=535

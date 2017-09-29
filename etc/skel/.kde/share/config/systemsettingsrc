@@ -1,0 +1,25 @@
+[Colors]
+CurrentPalette=Forty Colors
+
+[DownloadDialog Settings]
+Height 1080=400
+Width 1920=700
+
+[KFileDialog Settings]
+Height 1080=540
+Width 1920=826
+
+[KPropertiesDialog]
+Height 1080=365
+Width 1920=430
+
+[MainWindow]
+Height 1080=670
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABGcAAAKAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1127
+
+[Open-with settings]
+CompletionMode=5
+History=firefox

@@ -1,0 +1,14 @@
+[Baloo]
+migrated=true
+
+[Basic Settings]
+Start Nepomuk=false
+
+[Service-nepomukfileindexer]
+autostart=false
+
+[Service-nepomuktelepathyservice]
+autostart=false
+
+[main Settings]
+GraphMigrationRequired=false
