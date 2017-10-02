@@ -20,20 +20,6 @@ lock widgets=false
 manage activities=false
 remove=true
 
-[Containments][53]
-activity=
-activityId=
-desktop=-1
-formfactor=3
-geometry=10274,-1086,268,1080
-immutability=1
-lastDesktop=-1
-lastScreen=0
-location=5
-plugin=panel
-screen=0
-zvalue=0
-
 [Containments][53][ActionPlugins]
 RightButton;NoModifier=contextmenu
 
@@ -172,14 +158,6 @@ zvalue=60
 [Containments][61][ToolBox]
 corner=1
 offset=0
-
-[Containments][61][Wallpaper][image]
-slideTimer=10
-slidepaths=
-userswallpapers=
-wallpaper=/usr/share/wallpapers/Pardus-Wallpapers/fatih-bg.png
-wallpapercolor=0,0,0
-wallpaperposition=0
 
 [General]
 immutability=2
