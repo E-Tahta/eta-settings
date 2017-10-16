@@ -1,3 +1,9 @@
+eta-settings (2017.3) unstable; urgency=medium
+
+  * Arrange Pre-Depends and update default configs
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 16 Oct 2017 16:42:01 +0300
+
 eta-settings (2017.2) unstable; urgency=medium
 
   * Remove unnecessary config files and update the old ones
