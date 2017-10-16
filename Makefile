@@ -6,6 +6,8 @@ all:
 install:
 	mkdir -p $(DESTDIR)/etc/skel
 	mkdir -p $(DESTDIR)/etc/apt/apt.conf.d
-	cp -a etc $(DESTDIR)/.
+	mkdir -p $(DESTDIR)/usr/share/lightdm/lightdm.conf.d
+	mkdir -p $(DESTDIR)/usr/share/lightdm/lightdm-gtk-greeter.conf.d
+	cp -a etc usr $(DESTDIR)/.
 
 # vim:ts=4

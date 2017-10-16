@@ -62,7 +62,7 @@ displayedText=1
 Order=2
 
 [Containments][53][Applets][57]
-geometry=0,612,267,225
+geometry=0,612,267,215
 immutability=2
 plugin=tasks
 zvalue=0
@@ -74,7 +74,7 @@ showOnlyCurrentDesktop=true
 Order=3
 
 [Containments][53][Applets][58]
-geometry=0,841,267,50
+geometry=0,831,267,50
 immutability=2
 plugin=peachhybrid
 zvalue=0
@@ -82,10 +82,8 @@ zvalue=0
 [Containments][53][Applets][58][LayoutInformation]
 Order=4
 
-
-
 [Containments][53][Applets][60]
-geometry=0,949,267,131
+geometry=0,885,267,195
 immutability=2
 plugin=panelbottomwidget
 zvalue=0
@@ -122,7 +120,7 @@ location=0
 mimeFilter=
 numTextLines=2
 plugin=folderview
-savedPositions=1,9,marble.desktop,560,910,gimp.desktop,1110,910,okular.desktop,1000,910,downloads.desktop,10,910,kalzium.desktop,670,910,kcalc.desktop,890,910,çöp.desktop,230,910,Ev.desktop,120,910,Antropi_Teach.desktop,450,910
+savedPositions=1,9,marble.desktop,560,910,gimp.desktop,1110,910,okular.desktop,1000,910,downloads.desktop,10,910,kalzium.desktop,670,910,kcalc.desktop,890,910,trash.desktop,230,910,Home.desktop,120,910,Antropi_Teach.desktop,450,910
 screen=0
 showPreviews=true
 sortColumn=-1
@@ -158,6 +156,14 @@ zvalue=60
 [Containments][61][ToolBox]
 corner=1
 offset=0
+
+[Containments][61][Wallpaper][image]
+slideTimer=10
+slidepaths=
+userswallpapers=
+wallpaper=/usr/share/wallpapers/blue/
+wallpapercolor=0,0,0
+wallpaperposition=0
 
 [General]
 immutability=2
