@@ -1,3 +1,12 @@
+eta-settings (2018.10.1) unstable; urgency=medium
+
+  * Bump version to 2018.10.1
+  * Reduce and filter kde settings in skel
+  * Pardus CI integration
+  * Update control file and maintainer scripts
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 11 Oct 2018 13:07:25 +0300
+
 eta-settings (2017.3) unstable; urgency=medium
 
   * Arrange Pre-Depends and update default configs
