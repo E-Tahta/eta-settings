@@ -1,8 +1,12 @@
 [$Version]
 update_info=kdeui.upd:kde4/migrate_from_kde3_icon_theme,kded.upd:kde3.0
 
+[General]
+ColorScheme=Eta
+widgetStyle=qtcurve
+
 [Icons]
-Theme=eta-icon-theme
+Theme=eta
 
 [KDE]
 ShowDeleteCommand=false

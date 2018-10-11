@@ -101,8 +101,8 @@ kwin4_effect_translucencyEnabled=true
 kwin4_effect_windowgeometryEnabled=false
 kwin4_effect_wobblywindowsEnabled=false
 kwin4_effect_zoomEnabled=true
-peach-screencontrolEnabled=true
-synchronizeskipswitcherEnabled=false
+peachwindowswitcherEnabled=true
+synchronizeskipswitcherEnabled=true
 videowallEnabled=false
 
 [Script-desktopchangeosd]

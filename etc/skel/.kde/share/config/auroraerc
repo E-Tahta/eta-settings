@@ -1,6 +1,6 @@
 [Engine]
-ThemeName=Next-black
+ThemeName=Eta
 
-[Next-black]
+[Eta]
 BorderSize=2
-ButtonSize=6
+ButtonSize=5

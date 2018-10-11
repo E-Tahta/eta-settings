@@ -1,0 +1,17 @@
+[ActiveShadows]
+Color=91,90,89
+ColorType=5
+Size=20
+
+[General]
+BorderSize=3
+CustomShadows=true
+EdgePad=1
+InnerBorder=0
+OpaqueBorder=false
+OuterBorder=0
+RoundBottom=false
+TitleBarPad=2
+
+[InactiveShadows]
+Size=20
