@@ -1,7 +1,10 @@
 #!/bin/sh
+
 set -e
 
 update-alternatives --install \
     /usr/share/icons/default/index.theme \
     x-cursor-theme \
     /etc/X11/cursors/oxy-viorange.theme 100
+
+#DEBHELPER#

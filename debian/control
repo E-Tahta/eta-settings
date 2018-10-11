@@ -8,8 +8,7 @@ Homepage: http://pardus.org.tr
 
 Package: eta-settings
 Architecture: all
-Depends: ${misc:Depends}
- eta-icon-theme,
+Depends: eta-icon-theme,
  eta-plasma-themes,
  libreoffice-style-sifr,
  oxygencursors,
