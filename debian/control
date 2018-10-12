@@ -8,12 +8,16 @@ Homepage: http://pardus.org.tr
 
 Package: eta-settings
 Architecture: all
-Depends: eta-icon-theme,
+Pre-Depends: kdm
+Depends: desktop-base,
+ eta-icon-theme,
  eta-plasma-themes,
  libreoffice-style-sifr,
+ logrotate,
  oxygencursors,
  pardus-x11-settings,
  qtcurve
+Replaces: kdm
 Description: default settings for the ETAP desktop
  This package contains the default settings used by Pardus.
 

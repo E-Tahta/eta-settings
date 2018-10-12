@@ -1,0 +1,8 @@
+#1.8 eta 04161620161620
+#This file is created, and used by, QtCurve. Alterations may be overwritten.
+gtk-icon-sizes="gtk-small-toolbar=22,22:gtk-large-toolbar=22,22:gtk-dnd=32,32:gtk-button=22,22:gtk-menu=22,22:gtk-dialog=32,32"
+
+style "KDE4-icons"
+{
+}
+class "*" style "KDE4-icons"
