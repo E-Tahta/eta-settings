@@ -13,4 +13,20 @@ if [ ! -f /var/log/eta.log ]; then
     chmod 766 /var/log/eta.log
 fi
 
+if [ -f /etc/kde4/kdm/Xreset ]; then
+    mv /etc/kde4/kdm/Xreset /etc/kde4/kdm/Xreset.orig
+fi
+
+if [ -f /etc/kde4/kdm/kdmrc ]; then
+    mv /etc/kde4/kdm/kdmrc /etc/kde4/kdm/kdmrc.orig
+fi
+
+if [ -f /etc/kde4/kdm/backgroundrc ]; then
+    mv /etc/kde4/kdm/backgroundrc /etc/kde4/kdm/backgroundrc.orig
+fi
+
+cp -fr /usr/share/eta/eta-settings/Xreset /etc/kde4/kdm/Xreset
+cp -fr /usr/share/eta/eta-settings/kdmrc /etc/kde4/kdm/kdmrc
+cp -fr /usr/share/eta/eta-settings/backgroundrc /etc/kde4/kdm/backgroundrc
+
 #DEBHELPER#

@@ -1,10 +1,10 @@
 etc/apt/apt.conf.d/99translations
-etc/kde4/kdm/backgroundrc
-etc/kde4/kdm/kdmrc
-etc/kde4/kdm/Xreset
 etc/logrotate.d/eta
 etc/skel
 usr/bin/eta-keyboard-wrapper
+usr/share/eta/eta-settings/backgroundrc
+usr/share/eta/eta-settings/kdmrc
+usr/share/eta/eta-settings/Xreset
 usr/share/kde4/apps/color-schemes/Eta.colors
 usr/share/kde4/apps/kdm/pics/etalogo.png
 usr/share/kde4/apps/kdm/pics/kdelogo.png
