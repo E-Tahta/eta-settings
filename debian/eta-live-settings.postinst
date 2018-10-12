@@ -13,7 +13,4 @@ if [ ! -f /var/log/eta.log ]; then
     chmod 766 /var/log/eta.log
 fi
 
-ln -sf etalogo.png /usr/share/kde4/apps/kdm/pics/kdelogo.png
-ln -sf etalogo.png /usr/share/kde4/apps/kdm/pics/shutdown.png
-
 #DEBHELPER#

@@ -8,7 +8,6 @@ Homepage: http://pardus.org.tr
 
 Package: eta-settings
 Architecture: all
-Pre-Depends: kdm
 Depends: desktop-base,
  eta-icon-theme,
  eta-plasma-themes,
@@ -23,6 +22,12 @@ Description: default settings for the ETAP desktop
 
 Package: eta-live-settings
 Architecture: all
-Depends: ${misc:Depends}, eta-settings
+Depends: desktop-base,
+ eta-icon-theme,
+ eta-plasma-themes,
+ libreoffice-style-sifr,
+ oxygencursors,
+ pardus-x11-settings,
+ qtcurve
 Description: configuration for the Paruds live cd
  This package contains live cd customizations used by Pardus.

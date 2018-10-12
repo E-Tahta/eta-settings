@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+update-alternatives --install \
+    /usr/share/icons/default/index.theme \
+    x-cursor-theme \
+    /etc/X11/cursors/oxy-viorange.theme 100
+
+if [ ! -f /var/log/eta.log ]; then
+    mkdir -p /var/log
+    touch /var/log/eta.log
+    chmod 766 /var/log/eta.log
+fi
+
+#DEBHELPER#

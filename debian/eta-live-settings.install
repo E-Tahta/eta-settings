@@ -1,14 +1,7 @@
 etc/apt/apt.conf.d/99translations
-etc/kde4/kdm/backgroundrc
-etc/kde4/kdm/kdmrc
-etc/kde4/kdm/Xreset
-etc/logrotate.d/eta
 etc/skel
 usr/bin/eta-keyboard-wrapper
 usr/share/kde4/apps/color-schemes/Eta.colors
-usr/share/kde4/apps/kdm/pics/etalogo.png
-usr/share/kde4/apps/kdm/pics/kdelogo.png
-usr/share/kde4/apps/kdm/pics/shutdown.png
 usr/share/kde4/apps/QtCurve/Eta.qtcurve
 usr/share/lightdm/lightdm.conf.d/20_etap.conf
 usr/share/lightdm/lightdm-gtk-greeter.conf.d/30_etap.conf
