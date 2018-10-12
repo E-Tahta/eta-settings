@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+if [ -f /etc/kde4/kdm/Xreset.orig ]; then
+    mv /etc/kde4/kdm/Xreset.orig /etc/kde4/kdm/Xreset
+fi
+
+if [ -f /etc/kde4/kdm/kdmrc.orig ]; then
+    mv /etc/kde4/kdm/kdmrc.orig /etc/kde4/kdm/kdmrc
+fi
+
+if [ -f /etc/kde4/kdm/backgroundrc.orig ]; then
+    mv /etc/kde4/kdm/backgroundrc.orig /etc/kde4/kdm/backgroundrc
+fi
+
+#DEBHELPER#
