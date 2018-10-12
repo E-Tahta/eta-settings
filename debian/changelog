@@ -1,3 +1,9 @@
+eta-settings (2018.10.3) unstable; urgency=medium
+
+  * Remove make file use install instead
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Fri, 12 Oct 2018 13:53:59 +0300
+
 eta-settings (2018.10.2) unstable; urgency=medium
 
   * Change all copying system and source
