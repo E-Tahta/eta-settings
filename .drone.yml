@@ -22,8 +22,6 @@ build:
     commands:
       - id
       - apt-get update
-      - dpkg -i /packages/$(basename $DRONE_REPO)/*.deb || apt-get install -f
-      - dpkg -i /packages/$(basename $DRONE_REPO)/*.deb
       - echo "DONE"
 branches:
   - master
