@@ -1,0 +1,12 @@
+[ActionPlugins]
+MidButton;NoModifier=paste
+RightButton;NoModifier=contextmenu
+wheel:Vertical;NoModifier=switchdesktop
+
+[Containments][19][ToolBox]
+corner=1
+offset=0
+
+[General]
+immutability=2
+
