@@ -8,6 +8,7 @@ Homepage: http://pardus.org.tr
 
 Package: eta-settings
 Architecture: all
+Pre-Depends: kdm
 Depends: desktop-base,
  eta-icon-theme,
  eta-plasma-themes,
