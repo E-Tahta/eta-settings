@@ -110,7 +110,7 @@ PopupHideDelay=1000
 TextOnly=false
 
 [Style]
-BorderSize=2
+BorderSize=3
 ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CustomButtonPositions=false
@@ -176,6 +176,7 @@ wmCommand2=/usr/bin/dolphin
 [TabBox]
 BorderActivate=9
 BorderAlternativeActivate=9
+DesktopMode=1
 ListMode=0
 ShowTabBox=true
 

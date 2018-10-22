@@ -1,0 +1,32 @@
+[BackgroundConfigDialog]
+Height 1080=719
+Width 1920=649
+
+[PlasmaViews][1]
+panelVisibility=0
+
+[PlasmaViews][1][Horizontal1920]
+offset=0
+
+[PlasmaViews][1][Sizes]
+lastsize=1080
+
+[PlasmaViews][1][Sizes][Horizontal1920]
+max=1920,35
+min=1920,35
+offset=0
+size=1920,35
+
+[Updates]
+performed=/usr/share/kde4/apps/plasma-desktop/updates/set-hidden-single-vd-pager.js,/usr/share/kde4/apps/plasma-desktop/updates/systray-to-notifications-widget.js,/usr/share/kde4/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js
+
+[ViewIds]
+1=1
+11=2
+
+[launch]
+__file=
+
+[setVolume]
+__file=
+level=66
