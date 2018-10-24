@@ -1,0 +1,74 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd'>
+<Menu>
+ <Menu>
+  <Name>Settingsmenu</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>kde4-systemsettings.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>openjdk-7-policytool.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>System</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>ScreenSavers</Menuname>
+   <Menuname>Terminal</Menuname>
+   <Merge type="files"/>
+   <Filename>kde4-dolphin.desktop</Filename>
+   <Filename>kde4-kinfocenter.desktop</Filename>
+   <Filename>kde4-ksysguard.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>kde4-konsole.desktop</Filename>
+   <Filename>kde4-kwalletmanager.desktop</Filename>
+   <Filename>kde4-nepomukcleaner.desktop</Filename>
+   <Filename>kde4-nepomukbackup.desktop</Filename>
+   <Filename>debian-uxterm.desktop</Filename>
+   <Filename>debian-xterm.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Utilities</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>XUtilities</Menuname>
+   <Merge type="files"/>
+   <Filename>kde4-ark.desktop</Filename>
+   <Filename>eta-history.desktop</Filename>
+   <Filename>eta-pen.desktop</Filename>
+   <Filename>eta-register.desktop</Filename>
+   <Filename>eta-keyboard.desktop</Filename>
+   <Filename>eta-help.desktop</Filename>
+   <Filename>kde4-kcalc.desktop</Filename>
+   <Filename>kde4-klipper.desktop</Filename>
+   <Filename>kde4-kwrite.desktop</Filename>
+   <Filename>kde4-superkaramba.desktop</Filename>
+   <Filename>kde4-sweeper.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>kde4-nepomukcleaner.desktop</Filename>
+   <Filename>kde4-nepomukbackup.desktop</Filename>
+   <Filename>debian-uxterm.desktop</Filename>
+   <Filename>debian-xterm.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>.hidden</Name>
+  <Include>
+   <Filename>openjdk-7-policytool.desktop</Filename>
+   <Filename>kde4-konsole.desktop</Filename>
+   <Filename>kde4-kwalletmanager.desktop</Filename>
+   <Filename>kde4-nepomukcleaner.desktop</Filename>
+   <Filename>kde4-nepomukbackup.desktop</Filename>
+   <Filename>debian-uxterm.desktop</Filename>
+   <Filename>debian-xterm.desktop</Filename>
+  </Include>
+ </Menu>
+</Menu>
