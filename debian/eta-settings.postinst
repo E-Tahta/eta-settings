@@ -29,4 +29,6 @@ cp -fr /usr/share/eta/eta-settings/Xreset /etc/kde4/kdm/Xreset
 cp -fr /usr/share/eta/eta-settings/kdmrc /etc/kde4/kdm/kdmrc
 cp -fr /usr/share/eta/eta-settings/backgroundrc /etc/kde4/kdm/backgroundrc
 
+dpkg --add-architecture i386
+
 #DEBHELPER#
