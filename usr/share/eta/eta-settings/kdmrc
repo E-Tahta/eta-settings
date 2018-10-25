@@ -21,6 +21,8 @@ Reset=/etc/kde4/kdm/Xreset
 Session=/etc/kde4/kdm/Xsession
 Setup=/etc/kde4/kdm/Xsetup
 Startup=/etc/kde4/kdm/Xstartup
+OpenDelay=30
+OpenTimeout=240
 
 [X-*-Greeter]
 AntiAliasing=true
