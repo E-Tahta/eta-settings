@@ -1,3 +1,9 @@
+eta-settings (2018.10.14) unstable; urgency=medium
+
+  * Make default avatar installed
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Fri, 26 Oct 2018 09:54:31 +0300
+
 eta-settings (2018.10.13) unstable; urgency=medium
 
   * Add multi arch i386 and default avatar for kdm
