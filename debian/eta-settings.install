@@ -5,6 +5,7 @@ usr/bin/eta-keyboard-wrapper
 usr/share/eta/eta-settings/backgroundrc
 usr/share/eta/eta-settings/kdmrc
 usr/share/eta/eta-settings/Xreset
+usr/share/eta/eta-settings/Xsetup
 usr/share/kde4/apps/color-schemes/Eta.colors
 usr/share/kde4/apps/kdm/faces/.default.face
 usr/share/kde4/apps/kdm/pics/etalogo.png

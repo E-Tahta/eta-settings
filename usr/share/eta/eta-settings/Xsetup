@@ -1,0 +1,11 @@
+#! /bin/sh
+# Xsetup - run as root before the login dialog appears
+
+#xconsole -geometry 480x130-0-0 -notify -verbose -fn fixed -exitOnFail -file /dev/xconsole &
+
+OPTICTOUCH_PID=/var/run/optictouch.pid
+
+while [ ! -f $OPTICTOUCH_PID ]
+do
+    sleep 1
+done

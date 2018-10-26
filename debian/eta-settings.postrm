@@ -6,6 +6,10 @@ if [ -f /etc/kde4/kdm/Xreset.orig ]; then
     mv /etc/kde4/kdm/Xreset.orig /etc/kde4/kdm/Xreset
 fi
 
+if [ -f /etc/kde4/kdm/Xsetup.orig ]; then
+    mv /etc/kde4/kdm/Xsetup.orig /etc/kde4/kdm/Xsetup
+fi
+
 if [ -f /etc/kde4/kdm/kdmrc.orig ]; then
     mv /etc/kde4/kdm/kdmrc.orig /etc/kde4/kdm/kdmrc
 fi
