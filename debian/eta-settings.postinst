@@ -2,6 +2,8 @@
 
 set -e
 
+mkdir -p /usr/share/icons/default
+
 update-alternatives --install \
     /usr/share/icons/default/index.theme \
     x-cursor-theme \
