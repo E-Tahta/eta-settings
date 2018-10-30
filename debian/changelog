@@ -1,3 +1,9 @@
+eta-settings (2018.10.16) unstable; urgency=medium
+
+  * Use eta-cursor-theme instead of oxygencursors
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 30 Oct 2018 10:10:58 +0300
+
 eta-settings (2018.10.15) unstable; urgency=medium
 
   * Add grab addon on firefox and Add Xsetup script
