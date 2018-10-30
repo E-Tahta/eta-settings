@@ -1,0 +1,14 @@
+Dpkg::Options {
+   "--force-confnew";
+};
+
+Unattended-Upgrade::Origins-Pattern {
+        "origin=Pardus ETAP,codename=${distro_codename},label=Pardus ETAP stable";
+        "origin=Pardus ETAP,codename=${distro_codename},label=Pardus ETAP Guvenlik";
+};
+
+Unattended-Upgrade::AutoFixInterruptedDpkg "true";
+Unattended-Upgrade::InstallOnShutdown "false";
+Unattended-Upgrade::Remove-Unused-Dependencies "true";
+//Unattended-Upgrade::MinimalSteps "true";
+Acquire::http::Dl-Limit "256";

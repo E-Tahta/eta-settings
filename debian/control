@@ -16,7 +16,8 @@ Depends: desktop-base,
  libreoffice-style-sifr,
  logrotate,
  pardus-x11-settings,
- qtcurve
+ qtcurve,
+ unattended-upgrades
 Replaces: kdm
 Description: default settings for the ETAP desktop
  This package contains the default settings used by Pardus.
@@ -29,6 +30,7 @@ Depends: desktop-base,
  eta-plasma-themes,
  libreoffice-style-sifr,
  pardus-x11-settings,
- qtcurve
+ qtcurve,
+ unattended-upgrades
 Description: configuration for the Paruds live cd
  This package contains live cd customizations used by Pardus.

@@ -1,3 +1,5 @@
+etc/apt/apt.conf.d/90eta-periodic
+etc/apt/apt.conf.d/95eta-unattended-recipe
 etc/apt/apt.conf.d/99translations
 etc/skel
 usr/bin/eta-keyboard-wrapper
