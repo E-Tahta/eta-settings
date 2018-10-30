@@ -1,3 +1,9 @@
+eta-settings (2018.10.17) unstable; urgency=medium
+
+  * Add unattended upgrade recipies
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 30 Oct 2018 14:12:50 +0300
+
 eta-settings (2018.10.16) unstable; urgency=medium
 
   * Use eta-cursor-theme instead of oxygencursors
