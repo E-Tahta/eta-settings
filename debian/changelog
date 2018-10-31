@@ -1,3 +1,9 @@
+eta-settings (2018.10.19) unstable; urgency=medium
+
+  * Add mozilla extention correctly
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 31 Oct 2018 17:27:05 +0300
+
 eta-settings (2018.10.18) unstable; urgency=medium
 
   * Fix dpkg reconfigure problem
