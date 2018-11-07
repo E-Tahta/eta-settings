@@ -11,4 +11,4 @@ Unattended-Upgrade::AutoFixInterruptedDpkg "true";
 Unattended-Upgrade::InstallOnShutdown "false";
 Unattended-Upgrade::Remove-Unused-Dependencies "true";
 //Unattended-Upgrade::MinimalSteps "true";
-Acquire::http::Dl-Limit "256";
+Acquire::http::Dl-Limit "512";
