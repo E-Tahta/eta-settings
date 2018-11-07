@@ -23,6 +23,10 @@ if [ -f /etc/kde4/kdm/Xsetup ]; then
     mv /etc/kde4/kdm/Xsetup /etc/kde4/kdm/Xsetup.orig
 fi
 
+if [ -f /etc/kde4/kdm/Xstartup ]; then
+    mv /etc/kde4/kdm/Xstartup /etc/kde4/kdm/Xstartup.orig
+fi
+
 if [ -f /etc/kde4/kdm/kdmrc ]; then
     mv /etc/kde4/kdm/kdmrc /etc/kde4/kdm/kdmrc.orig
 fi
@@ -31,8 +35,9 @@ if [ -f /etc/kde4/kdm/backgroundrc ]; then
     mv /etc/kde4/kdm/backgroundrc /etc/kde4/kdm/backgroundrc.orig
 fi
 
-cp -fr /usr/share/eta/eta-settings/Xsetup /etc/kde4/kdm/Xsetup
 cp -fr /usr/share/eta/eta-settings/Xreset /etc/kde4/kdm/Xreset
+cp -fr /usr/share/eta/eta-settings/Xsetup /etc/kde4/kdm/Xsetup
+cp -fr /usr/share/eta/eta-settings/Xstartup /etc/kde4/kdm/Xstartup
 cp -fr /usr/share/eta/eta-settings/kdmrc /etc/kde4/kdm/kdmrc
 cp -fr /usr/share/eta/eta-settings/backgroundrc /etc/kde4/kdm/backgroundrc
 
