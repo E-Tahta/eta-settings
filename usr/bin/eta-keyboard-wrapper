@@ -1,5 +1,6 @@
 #!/bin/bash
 
 rm -rf /tmp/root/.virtualkeyboard
+rm -rf /tmp/.virtualkeyboard
 
 /usr/bin/eta-keyboard login >> /var/log/eta.log 2>&1 &
