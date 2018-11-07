@@ -2,4 +2,4 @@
 
 rm -rf /tmp/root/.virtualkeyboard
 
-/usr/bin/eta-keyboard login > /var/log/eta.log 2>&1 &
+/usr/bin/eta-keyboard login >> /var/log/eta.log 2>&1 &
