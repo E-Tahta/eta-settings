@@ -2,13 +2,16 @@
 <Menu>
  <Menu>
   <Name>Settingsmenu</Name>
-  <Layout>
-   <Merge type="files"/>
-   <Filename>kde4-systemsettings.desktop</Filename>
-  </Layout>
   <Exclude>
    <Filename>openjdk-7-policytool.desktop</Filename>
+   <Filename>itweb-settings.desktop</Filename>
   </Exclude>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>kde4-apper.desktop</Filename>
+   <Filename>eta-calibrator.desktop</Filename>
+   <Filename>kde4-systemsettings.desktop</Filename>
+  </Layout>
  </Menu>
  <Menu>
   <Name>System</Name>
@@ -34,6 +37,12 @@
  </Menu>
  <Menu>
   <Name>Utilities</Name>
+  <Exclude>
+   <Filename>kde4-nepomukcleaner.desktop</Filename>
+   <Filename>kde4-nepomukbackup.desktop</Filename>
+   <Filename>debian-uxterm.desktop</Filename>
+   <Filename>debian-xterm.desktop</Filename>
+  </Exclude>
   <Layout>
    <Merge type="menus"/>
    <Menuname>XUtilities</Menuname>
@@ -48,16 +57,13 @@
    <Filename>kde4-klipper.desktop</Filename>
    <Filename>kde4-kwrite.desktop</Filename>
    <Filename>kde4-superkaramba.desktop</Filename>
-   <Filename>kde4-sweeper.desktop</Filename>
    <Separator/>
    <Menuname>More</Menuname>
+   <Filename>Antropi_Teach.desktop</Filename>
   </Layout>
-  <Exclude>
-   <Filename>kde4-nepomukcleaner.desktop</Filename>
-   <Filename>kde4-nepomukbackup.desktop</Filename>
-   <Filename>debian-uxterm.desktop</Filename>
-   <Filename>debian-xterm.desktop</Filename>
-  </Exclude>
+  <Include>
+   <Filename>Antropi_Teach.desktop</Filename>
+  </Include>
  </Menu>
  <Menu>
   <Name>.hidden</Name>
@@ -69,6 +75,36 @@
    <Filename>kde4-nepomukbackup.desktop</Filename>
    <Filename>debian-uxterm.desktop</Filename>
    <Filename>debian-xterm.desktop</Filename>
+   <Filename>itweb-settings.desktop</Filename>
   </Include>
+ </Menu>
+ <Layout>
+  <Merge type="menus"/>
+  <Menuname>Settingsmenu</Menuname>
+  <Menuname>Science</Menuname>
+  <Menuname>Multimedia</Menuname>
+  <Menuname>Debian</Menuname>
+  <Menuname>Education</Menuname>
+  <Menuname>Development</Menuname>
+  <Menuname>Graphics</Menuname>
+  <Menuname>Internet</Menuname>
+  <Menuname>Office</Menuname>
+  <Menuname>Games</Menuname>
+  <Menuname>System</Menuname>
+  <Menuname>Utilities</Menuname>
+  <Menuname>Applications</Menuname>
+  <Merge type="files"/>
+  <Filename>kde4-kfind.desktop</Filename>
+ </Layout>
+ <Menu>
+  <Name>金山办公</Name>
+  <Deleted/>
+ </Menu>
+ <Menu>
+  <Name>Applications</Name>
+  <Layout/>
+  <Exclude>
+   <Filename>Antropi_Teach.desktop</Filename>
+  </Exclude>
  </Menu>
 </Menu>
