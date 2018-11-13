@@ -4,7 +4,7 @@ kcminputrc_mouse_cursortheme=Oxygen_White
 # kcminputrc Mouse cursorSize ''
 kcminputrc_mouse_cursorsize=''
 # ksplashrc KSplash Theme Default
-ksplashrc_ksplash_theme=blue
+ksplashrc_ksplash_theme=eta
 # ksplashrc KSplash Engine KSplashX
 ksplashrc_ksplash_engine=KSplashQML
 # kcmfonts General forceFontDPI 0
