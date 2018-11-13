@@ -1,7 +1,20 @@
+[ActiveShadows]
+Color=91,90,89
+ColorType=5
+Size=20
+
+[InactiveShadows]
+Size=20
+
 [KWin]
 BorderSize=3
+CustomShadows=true
+EdgePad=1
 InnerBorder=0
+OpaqueBorder=false
 OuterBorder=0
+RoundBottom=false
+TitleBarPad=2
 
 [Settings]
 activeTabAppearance=flat
@@ -71,7 +84,7 @@ etchEntry=false
 expanderHighlight=3
 fadeLines=false
 fillProgress=true
-fillSlider=true
+fillSlider=false
 flatSbarButtons=true
 focus=line
 forceAlternateLvCols=true
@@ -108,7 +121,7 @@ menubarApps=VirtualBox,smplayer,amarok,arora,kcalc,kaffeine
 menubarHiding=0
 menubarMouseOver=false
 menuitemAppearance=flat
-noBgndGradientApps=
+noBgndGradientApps=systemsettings
 noBgndImageApps=
 noBgndOpacityApps=dragon,smplayer,vmplayer,vmware,inkscape,totem,kaffeine,kscreenlocker,sonata
 noMenuBgndOpacityApps=vmplayer,vmware,inkscape,gtk,totem,sonata
@@ -124,7 +137,7 @@ round=slight
 roundAllTabs=true
 roundMbTopOnly=true
 sbarBgndAppearance=flat
-scrollbarType=windows
+scrollbarType=kde
 selectionAppearance=flat
 shadeCheckRadio=#FF5722
 shadeMenubarOnlyWhenActive=true
@@ -135,8 +148,8 @@ shading=hcy
 sliderAppearance=customgradient4
 sliderFill=true
 sliderStyle=round
-sliderThumbs=none
-sliderWidth=9
+sliderThumbs=1dot
+sliderWidth=25
 smallRadio=false
 sortedLv=#FF9800
 splitterHighlight=0
