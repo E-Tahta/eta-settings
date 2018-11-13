@@ -1,3 +1,9 @@
+eta-settings (2018.11.5) stable; urgency=medium
+
+  * Update default ksplash theme
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 13 Nov 2018 14:21:26 +0300
+
 eta-settings (2018.11.4) stable; urgency=medium
 
   * Make scrollbar slider always colored
