@@ -1,3 +1,9 @@
+eta-settings (2018.11.6) stable; urgency=medium
+
+  * Remove Xstartup and update other scripts
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 15 Nov 2018 09:03:03 +0300
+
 eta-settings (2018.11.5) stable; urgency=medium
 
   * Update default ksplash theme
