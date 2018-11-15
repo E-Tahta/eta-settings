@@ -1,6 +1,25 @@
 #! /bin/sh
 # Xreset - run as root after session exits
 
+now=$(date +%d-%m-%Y\ %T.%3N)
+
+RED='\033[1;31m'
+YEL='\033[1;33m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+LOG_FILE=/var/log/eta.log
+
+print_output() {
+  now=$(date +%d-%m-%Y\ %T.%3N)
+  echo "${NC}$now $1" >> $LOG_FILE
+}
+
+
+print_output "${RED}$0${NC}"
+u=$(/usr/bin/whoami)
+print_output "${RED}$0${NC} : running as ${YEL}$u${NC}"
+
 # Reassign ownership of the console to root, this should disallow
 # assignment of console output to any random users's xterm. See Xstartup.
 #
@@ -15,5 +34,7 @@ if [ -x /etc/X11/Xreset ] ; then
 fi
 
 # Remove credentials from /tmp
+now=$(date +%d-%m-%Y\ %T.%3N)
+print_output "${RED}$0${NC} : removing credentials under /tmp ${NC}"
 rm -rf /tmp/.etap_cr
 
