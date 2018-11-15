@@ -1,3 +1,9 @@
+eta-settings (2018.11.7) stable; urgency=medium
+
+  * Change firefox settings for new version 60
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 15 Nov 2018 12:26:18 +0300
+
 eta-settings (2018.11.6) stable; urgency=medium
 
   * Remove Xstartup and update other scripts
