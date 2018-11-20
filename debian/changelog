@@ -1,3 +1,9 @@
+eta-settings (2018.11.8) stable; urgency=medium
+
+  * Increade DL-limit for apt
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 20 Nov 2018 12:57:19 +0300
+
 eta-settings (2018.11.7) stable; urgency=medium
 
   * Change firefox settings for new version 60
