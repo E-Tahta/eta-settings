@@ -1,3 +1,9 @@
+eta-settings (2018.11.9) stable; urgency=medium
+
+  * Add maintainer script controlling dpkg-old files
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Fri, 23 Nov 2018 13:53:25 +0300
+
 eta-settings (2018.11.8) stable; urgency=medium
 
   * Increade DL-limit for apt
