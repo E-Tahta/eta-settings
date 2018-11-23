@@ -2,11 +2,11 @@
 
 set -e
 
-if [ -e /etc/apt/apt.conf.d/95eta-unattended-recipe.dpkg-old]; then
+if [ -e /etc/apt/apt.conf.d/95eta-unattended-recipe.dpkg-old ]; then
     rm -rf /etc/apt/apt.conf.d/95eta-unattended-recipe.dpkg-old
 fi
 
-if [ -e /etc/apt/apt.conf.d/90eta-periodic.dpkg-old]; then
+if [ -e /etc/apt/apt.conf.d/90eta-periodic.dpkg-old ]; then
     rm -rf /etc/apt/apt.conf.d/90eta-periodic.dpkg-old
 fi
 
