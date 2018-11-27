@@ -1,3 +1,9 @@
+eta-settings (2018.11.11) stable; urgency=medium
+
+  * Add xauthority for root user to be able to run GUI as root
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 27 Nov 2018 12:29:15 +0300
+
 eta-settings (2018.11.10) stable; urgency=medium
 
   * Fix syntax in preinst script
