@@ -3,6 +3,7 @@ etc/apt/apt.conf.d/95eta-unattended-recipe
 etc/apt/apt.conf.d/99translations
 etc/logrotate.d/eta
 etc/skel
+etc/X11/Xsession.d/36eta-xauth-for-root
 usr/bin/eta-keyboard-wrapper
 usr/share/eta/eta-settings/backgroundrc
 usr/share/eta/eta-settings/kdmrc

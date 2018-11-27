@@ -2,6 +2,7 @@ etc/apt/apt.conf.d/90eta-periodic
 etc/apt/apt.conf.d/95eta-unattended-recipe
 etc/apt/apt.conf.d/99translations
 etc/skel
+etc/X11/Xsession.d/36eta-xauth-for-root
 usr/bin/eta-keyboard-wrapper
 usr/share/kde4/apps/color-schemes/Eta.colors
 usr/share/kde4/apps/QtCurve/Eta.qtcurve
